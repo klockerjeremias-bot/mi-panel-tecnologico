@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#101522">
+    <meta name="description" content="Mi espacio para aprender tecnología, compartir proyectos y seguir creciendo.">
+    <title>Mi Panel Tecnológico</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Mi Panel Tecnológico, inicio">
+        <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+        <span>Mi Panel <span class="brand-light">Tecnológico</span></span>
+      </a>
+      <nav class="navigation" aria-label="Navegación principal">
+        <a href="#aprendizaje">Aprendizaje</a>
+        <a href="#proyectos">Proyectos</a>
+        <button class="theme-toggle" type="button" aria-pressed="false">
+          <span class="theme-icon" aria-hidden="true">☼</span>
+          <span class="theme-label">Modo claro</span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero page-width" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> APRENDIENDO Y CONSTRUYENDO</p>
+          <h1>Mi Panel<br><span>Tecnológico</span></h1>
+          <p class="hero-description">
+            Un espacio para compartir mi camino en el mundo digital:
+            las tecnologías que estoy aprendiendo y las ideas que estoy haciendo realidad.
+          </p>
+          <a class="primary-link" href="#proyectos">Explorar mis proyectos <span aria-hidden="true">↘</span></a>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="orbit-core"><span>&lt; / &gt;</span></div>
+          <span class="orbit-tag tag-html">HTML</span>
+          <span class="orbit-tag tag-js">JS</span>
+          <span class="orbit-tag tag-css">CSS</span>
+          <span class="orbit-star star-one">✳</span>
+          <span class="orbit-star star-two">✦</span>
+        </div>
+        <a class="scroll-hint" href="#aprendizaje"><span aria-hidden="true">↓</span> Un poco más abajo</a>
+      </section>
+
+      <section class="section page-width" id="aprendizaje">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">MI CAJA DE HERRAMIENTAS</p>
+            <h2>Tecnologías que <span>estoy aprendiendo</span></h2>
+          </div>
+          <p class="section-intro">Cada herramienta es una nueva posibilidad para crear algo útil.</p>
+        </div>
+        <div class="technology-grid">
+          <article class="technology-card"><span class="tech-icon icon-html">5</span><h3>HTML</h3><p>Estructura web</p></article>
+          <article class="technology-card"><span class="tech-icon icon-css">✳</span><h3>CSS</h3><p>Estilo y diseño</p></article>
+          <article class="technology-card"><span class="tech-icon icon-js">JS</span><h3>JavaScript</h3><p>Interactividad</p></article>
+          <article class="technology-card"><span class="tech-icon icon-node">⬡</span><h3>Node.js</h3><p>Herramientas web</p></article>
+          <article class="technology-card"><span class="tech-icon icon-sql">◉</span><h3>SQLite</h3><p>Datos organizados</p></article>
+          <article class="technology-card"><span class="tech-icon icon-git">⑂</span><h3>Git</h3><p>Control de versiones</p></article>
+          <article class="technology-card"><span class="tech-icon icon-github">◌</span><h3>GitHub</h3><p>Colaboración y código</p></article>
+          <article class="technology-card"><span class="tech-icon icon-ai">✧</span><h3>Inteligencia artificial</h3><p>Nuevas ideas y posibilidades</p></article>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="proyectos">
+        <div class="page-width">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">IDEAS EN MARCHA</p>
+              <h2>Mis <span>proyectos</span></h2>
+            </div>
+            <p class="section-intro">Pequeños pasos que se convierten en grandes aprendizajes.</p>
+          </div>
+          <div class="project-grid">
+            <article class="project-card project-management">
+              <div class="project-topline"><span class="project-number">01 / EN DESARROLLO</span><span class="project-symbol" aria-hidden="true">▦</span></div>
+              <h3>Gestión Simple</h3>
+              <p>Un sistema de gestión empresarial en desarrollo, pensado para ayudar a organizar tareas y procesos de forma sencilla.</p>
+              <div class="project-tags"><span>Gestión</span><span>En desarrollo</span></div>
+            </article>
+            <article class="project-card project-panel">
+              <div class="project-topline"><span class="project-number">02 / PRIMERA WEB</span><span class="project-symbol" aria-hidden="true">↗</span></div>
+              <h3>Mi Panel Tecnológico</h3>
+              <p>Mi primera página web, preparada para Internet y creada para mostrar lo que aprendo y los proyectos que construyo.</p>
+              <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer page-width">
+      <a class="brand footer-brand" href="#inicio"><span class="brand-mark" aria-hidden="true">&lt;/&gt;</span><span>Mi Panel Tecnológico</span></a>
+      <p>Hecho con curiosidad y ganas de aprender.</p>
+      <a class="back-to-top" href="#inicio">Volver arriba ↑</a>
+    </footer>
+  </body>
+</html>
